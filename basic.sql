@@ -1,8 +1,8 @@
 # 새로운 데이터베이스 my_db 생성
-create database my_db;
+CREATE DATABASE my_db;
 
 # my_db 데이터베이스를 사용하도록 설정
-use my_db;
+USE my_db;
 
 # person 테이블 생성. 이 테이블은 개인 ID, 이름, 나이, 주소, 직업을 저장
 CREATE TABLE person (
