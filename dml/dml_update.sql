@@ -10,7 +10,7 @@ UPDATE person
 SET age = 25, job = '대학생'
 WHERE id = 10;
 
-# 조건부 수정: 'id'가 13 이상인 모든 레코드의 'address'를 '대전'으로 변경
+# 조건부 필드 수정: 'id'가 13 이상인 모든 레코드의 'address'를 '대전'으로 변경
 UPDATE person
 SET address = '대전'
 WHERE id >= 13;
